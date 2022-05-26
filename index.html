@@ -10,9 +10,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>Macabro</title>
+<title>cuento_macabro</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="cuento_macabro.js"></script>
@@ -22,7 +21,7 @@ function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("320AA8403905894085378EAC30AA1B0C");
+	var comp=AdobeAn.getComposition("5751811986003F4E9C6D93081356792D");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
@@ -61,9 +60,9 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:842px; height:595px">
-		<canvas id="canvas" width="842" height="595" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:842px; height:595px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:640px; height:480px">
+		<canvas id="canvas" width="640" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
